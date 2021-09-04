@@ -1,0 +1,38 @@
+
+    body {
+        background-color: rgba(14, 14, 117, 0.856);
+        background-image: url(https://www.portalts.com.br/static/img/large/eb9ac108c61f86c9d7e212da29c23f0d.webp);
+        width: 1280px;
+        height: 720px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:scroll;
+        background-position: center;
+        padding-left: 200px;
+    }
+
+    h1 {
+        color: rgb(41, 41, 34);
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+        color: rgb(36, 36, 30);
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    button {
+        background-color: darkblue;
+        background-position: center;
+        position: absolute;
+        width: 95px;
+        height: 60px;
+        box-sizing: border-box;
+        border: solid 1px black;
+        color: burlywood;
+        left: 790px;
+        top: 700px;
+        text-align: center;
+        }

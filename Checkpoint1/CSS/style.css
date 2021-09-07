@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/*font-family: 'Dancing Script', cursive;*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(102, 91, 91);
+    background-image: url(https://www.rodosoft.com.br/wp-content/uploads/2018/03/pelotas-rs-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2000px;
+}
+
+
+.topo {
+    background-color: rgba(46, 92, 219, 0.3);
+    background-position: center;
+    position: relative;
+    border-radius: 30px 30px 30px 30px;
+    height: 130px;
+    width: 1280px;
+    padding-top: 1px;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(3, 19, 37);
+    font-size: 25px;
+
+}
+  
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(3, 1, 20, 0.918); 
+    text-align: center;
+    font-size: 18px;
+}
+
+.caixatexto {
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 290px;
+    height: 80px;
+    width: 1080px;
+}
+
+video {
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 920px;
+    width: 1280px;
+    
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#mae {
+    position: relative;
+    height: auto;
+    width: 1280px;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+.imagem {
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    width: 400px;
+    
+    
+}
+
+/* background-image: url(../IMG/Laranjal1.jpg);
+background-image: url(../IMG/quadrado2.jpg);*/
+
+.listacuriosidades {
+    height: 150px;
+    width: 400px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(3, 12, 27);
+}
+
+#foto1 {
+    background-image: url(../IMG/Laranjal1.jpg);
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+
+#foto2 {
+    background-image: url(../IMG/quadrado2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 6px;
+    top: 20px;
+    right: 0;
+}
+
+#lista1 {
+    position: absolute;
+    top: 200px;
+}
+
+#lista2 {
+    position: absolute;
+    top: 230px;
+    right: 0;
+}
+
+.final {
+    background-color: rgba(46, 92, 219, 0.3);
+    background-position: center;
+    position: relative;
+    border-radius: 30px 30px 30px 30px;
+    height: 130px;
+    width: 1280px;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 200px; 
+    top: 260px;
+}
+
+img, a {
+    display: inline-block;
+    color: black;
+}
+
+.imagens {
+    width: 640px;
+    height: auto;
+    position: relative;
+    padding-left: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+#pelotas {
+    margin-left: 2px;
+    padding-top: 3px;
+}
+
+#insta {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(14, 12, 12);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 72px, 0;
+}
+
+h1 {
+    color: rgb(114, 110, 110);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0, auto;
+    gap: 24px;
+}
+
+.imagemvideo {
+    width: 30%;
+    height: fit-content;
+    margin-top: 10px;
+    padding: 20px 10px;
+    transition: .2s ease;
+}
+
+.imagemvideo:hover {
+    transform: scale(1.05);
+    filter: grayscale(55%);
+}
+
+.titulovideo {
+    color: rgb(114, 110, 110);
+}
+
+.visualizacoes {
+    color: rgb(114, 110, 110);
+}
